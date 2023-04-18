@@ -67,6 +67,7 @@ class Mower:
                 elif(letter == 'G' or letter == 'D'):
                     self.change_dir(letter)
                 else:
+                    print(letter)
                     self.error = 'Commande incorrecte.'
                     print(self.error)
                     break
